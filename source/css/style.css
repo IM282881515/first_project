@@ -599,7 +599,7 @@ h6.shortcodes-caption{
 }
 
 #navigation li>a,
-#navigation li>span{
+#navigation li>span{ 
 	display:block;
 	color:#3e474c;
 	font-size:16px;
@@ -753,7 +753,7 @@ h6.shortcodes-caption{
 
 .csstransforms3d #navigation li ul{
 	display:block;
-	width:200px;
+	width:193px;
 	transform: rotate3d(1,0,0,-90deg);
 	-webkit-transform: rotate3d(1,0,0,-90deg);
 	-moz-transform: rotate3d(1,0,0,-90deg);
@@ -802,14 +802,14 @@ h6.shortcodes-caption{
 #navigation li ul li>span{
 	display:block;
 	color:#3e474c;
-	font-size:12px;
-	padding:7px 20px;
+	font-size:14px;
+	padding:10px 10px 10px 20px;
 	border-bottom:1px solid #dee0e5;
 }
 
 #navigation li:hover>ul{
 	display:block;
-	width:200px;
+	width:193px;
 	-moz-opacity: 1;
 	-khtml-opacity: 1;
 	opacity: 1;
@@ -924,11 +924,11 @@ h6.shortcodes-caption{
 /* Main Flex Slider */
 
 .main-flexslider{
-	height:460px;
+	height:300px;
 }
 
 .main-flexslider .slides>li{
-	height:460px;
+	height:300px;
 	color:#fff;
 	background-size:cover!important;
 	border-radius:3px;
