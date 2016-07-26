@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 
 <html>
@@ -163,7 +163,7 @@
 					<ul id="navigation" >
 						
 						<!-- Home -->
-						<li class="home-button">
+						<li class="home-button current-menu-item">
 							<a href="index.html"><i class="icons icon-home"></i></a>
 						</li>
 						<!-- /Home -->
@@ -173,8 +173,7 @@
 						
 							<a href="company.html">关于公司</a>
 							<ul>
-							
-								<li><a href="about.html">公司简介</a></li>
+								<li><a href="company.html">公司简介</a></li>
 								<li style="display:none"><a href="honor.html">公司荣誉</a></li>
 								<li style="display:none"><a href="cultural.html">企业文化</a></li>
 								<li style="display:none"><a href="framework.html">组织架构</a></li>
@@ -188,7 +187,7 @@
 								<li style="display:none"><a href="news-industry.html">行业动态</a></li>								
 							</ul>							
 						</li>
-						<li class="current-menu-item" >						 
+						<li >						 
 							<a href="product-center.html">产品中心</a>
 							
 							<ul>							
@@ -215,103 +214,52 @@
 			</header>
 			<!-- /Header -->
 
+
+
+
 		<section id="content">
-			<section class="section full-width-bg">
-				<img src="img/side-page.png" width="100%" alt="">
-			</section>
-			<!-- Section -->
 			<section class="section full-width-bg">
 				<div class="row">
 					<div class="col-xs-12 col-md-8">
-						<table class="table table-striped">
-						  <!-- On rows -->
-							<tr>
-					          <th>#</th>
-					          <th>Column heading</th>
-					          <th>Column heading</th>
-					          <th>Column heading</th>
-					        </tr>
-							<tbody>
-						        <tr class="active">
-						          <th scope="row">1</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr>
-						          <th scope="row">2</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr class="success">
-						          <th scope="row">3</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr>
-						          <th scope="row">4</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr class="info">
-						          <th scope="row">5</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr>
-						          <th scope="row">6</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr class="warning">
-						          <th scope="row">7</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr>
-						          <th scope="row">8</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						        <tr class="danger">
-						          <th scope="row">9</th>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						          <td>Column content</td>
-						        </tr>
-						      </tbody>
-						</table>
-						<nav>
-						  <ul class="pagination">
-						    <li>
-						      <a href="#" aria-label="Previous">
-						        <span aria-hidden="true">&laquo;</span>
-						      </a>
-						    </li>
-						    <li><a href="#">1</a></li>
-						    <li><a href="#">2</a></li>
-						    <li><a href="#">3</a></li>
-						    <li><a href="#">4</a></li>
-						    <li><a href="#">5</a></li>
-						    <li>
-						      <a href="#" aria-label="Next">
-						        <span aria-hidden="true">&raquo;</span>
-						      </a>
-						    </li>
-						  </ul>
-						</nav>
+						
+<section id="content" class="col-lg-9">
+            <h2>概述 <a id="overview"></a></h2>
+
+<p>希望到这一步，您已经安装和启用了Ghost，并且准备好了博客。以下的各节将引导您通过您需要知道的关于Ghost的所有内容，让您熟悉一切事情，建立您想要的博客。</p>
+
+<h3>第一步</h3>
+
+<p>如果您第一次运行Ghost，那么您需要创建您的管理员用户帐户。在您最喜爱的浏览器中访问您的新博客，然后将URL更改为<code class="path">&lt;你的 URL&gt;/ghost/signup/</code>。您应该看到一个这样的画面：</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/ghost-signup.png" alt=""></p>
+
+<ul>
+<li>  填写您的 <strong>姓名</strong> 作为您想要在博文作者中出现的名称。</li>
+<li>  然后输入您的<strong>电邮地址</strong> - 确保它是有效的，并输入一个合理的<strong>密码</strong>（需要至少8个字符）。</li>
+<li>  点击大的蓝色的 <strong>Sign Up</strong> 按钮, 您将会登入您的博客中。</li>
+</ul>
+
+<p>这就是这样！您现在可以开始写博客文章。</p>
+
+<h4>消息</h4>
+
+<p>在您第一次运行Ghost时您应该在屏幕的顶部看到一个蓝色的通知消息，看起来有点像这样：</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/first-run-info.png" alt=""></p>
+
+<p>这使您了解一些关于Ghost的配置方式，比如您的运行环境和您设置的URL。跳转到<a href="/usage/configuration/">配置</a> 部分以了解更多有关环境的信息和如何配置Ghost。您在登录前不能摆脱这条通知（这是一个错误，我们正在努力改正它），但是您一旦看完并熟悉了这条通知后，点击x关闭它。它就不会再次出现。</p>
+
+<p>您还可以看到关于电子邮件的橙色预警消息，：
+<img src="https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/email-warning.png" alt=""></p>
+
+<p>这对于您建立博客不起决定性的作用，所以您可以开始编写博文，你可以浏览<a href="/mail">电子邮件文档</a> 并了解如何配置 Ghost 使其能发送电子邮件。它目前仅用于在您忘记密码时向您发送一个密码重置电子邮件。它对于博客不重要，但如果您需要，它将真的很有用。</p>
+
+        </section>
 					</div>
 					<div class="col-xs-6 col-md-4">
 						<h4 class="title">分类页面标题</h4>
 						<ol>
-						  <li><a href="con-detail.html">Lorem ipsum dolor sit amet.</a></li>
+						  <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
 						  <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
 						  <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
 						  <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
@@ -324,25 +272,17 @@
 				</div>
 			</section>
 		</section>
+
 			<!-- Footer -->
+
 			<footer id="footer" style="bottom:0px;">
 				
 				<!-- Main Footer -->
 				<div id="main-footer">
-					
-					<div class="row">
-						
-						 
-					
 				</div>
 				<!-- /Main Footer -->
-				 
-				
-			
 			</footer>
 			<!-- /Footer -->
-			
-			
 			
 			<!-- Back To Top -->
 			<a href="#" id="button-to-top"><i class="icons icon-up-dir"></i></a>
