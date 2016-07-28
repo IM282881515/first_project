@@ -804,7 +804,7 @@ h6.shortcodes-caption{
 	color:#3e474c;
 	font-size:14px;
 	padding:10px 10px 10px 20px;
-	border-bottom:1px solid #dee0e5;
+	border-bottom:1px solid #dee0e5; 
 }
 
 #navigation li:hover>ul{
@@ -4844,7 +4844,7 @@ a.tag:hover{
 
 #main-footer{
 	padding-top:10px;
-	padding-bottom:30px;
+	padding-bottom:20px;
 	-webkit-transform: translateZ(0px);
 }
 
@@ -7159,8 +7159,8 @@ input.numeric-input:focus{
 		width:100%;
 		position:relative;
 		z-index:6000;
-		height:60px;
-		padding-top:20px;
+		height:48px;
+		padding-top:10px;
 		border-bottom:1px solid #ddd;
 		cursor:pointer;
 		transition:background 0.3s;
