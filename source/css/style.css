@@ -4804,7 +4804,8 @@ a.tag:hover{
 
 #footer{
 	-webkit-transform: translateZ(0px);
-	position:relative;
+	/*position:relative;*/
+	position: fixed;
 }
 
 #main-footer,
