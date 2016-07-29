@@ -5602,7 +5602,7 @@ button.active-button:after{
 .tab{
 	color:#3e474c;
 	background:#fff;
-	padding:15px 20px;
+	padding:5px 20px;
 	position:relative;
 	border-radius:3px;
 	-webkit-border-radius:3px;
