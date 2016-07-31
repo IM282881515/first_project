@@ -1409,7 +1409,9 @@ h6.shortcodes-caption{
 }
 
 .team-member .team-member-image{
-	width:100%;
+	//width:100%;
+	width:200px;
+	height:200px;
 }
 
 .team-member-info{
@@ -4793,11 +4795,15 @@ a.tag:hover{
 
 
 
+/* ==================================== */
+		      /* QiuJL */
+/* ==================================== */
 
-
-
-
-
+.main_box
+{
+	min-height:400px;
+}
+  
 /* ==================================== */
 		      /* FOOTER */
 /* ==================================== */
@@ -4805,7 +4811,8 @@ a.tag:hover{
 #footer{
 	-webkit-transform: translateZ(0px);
 	/*position:relative;*/
-	position: fixed;
+	//position: fixed;
+	font-family:"微软雅黑";
 }
 
 #main-footer,
@@ -4814,8 +4821,8 @@ a.tag:hover{
 	margin-right:-5000px;
 	padding-left:5000px;
 	padding-right:5000px;
-	background:#274472;
-	color:#e2eaf2;
+//	background:#274472;
+//	color:#e2eaf2;
 	-webkit-transform: translateZ(0px);
 	transition: margin 0.3s, padding 0.3s;
 	-webkit-transition: margin 0.3s, padding 0.3s;
@@ -4844,7 +4851,7 @@ a.tag:hover{
 
 #main-footer{
 	padding-top:10px;
-	padding-bottom:20px;
+	padding-bottom:10px;
 	-webkit-transform: translateZ(0px);
 }
 
@@ -4861,163 +4868,7 @@ a.tag:hover{
 
 
 
-
-
-/* Menu Widget */
-
-
-.menu-container{
-	padding:0;
-}
-
-.menu{
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-
-.menu li{
-	position:relative;
-	margin:0 0 13px;
-}
-
-.menu li a{
-	color:#e2eaf2;
-	display:block;
-	font-size:15px;
-	line-height:23px;
-	padding:0 0 0 20px;
-}
-
-.menu li a:before{
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
-	display: inline-block;
-	text-decoration: inherit;
-	width: 1em;
-	margin-right: .2em;
-	text-align: center;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1em;
-	margin-left: .2em;
-	color:#a8abae;
-	font-size:13px;
-	margin-left:5px;
-	content: '\e891';
-	position:absolute;
-	left:-5px;
-	top:5px;
-	color:#808ca4;
-}
-
-.menu li a:hover,
-.menu li a:hover:before{
-	color:#63b2f5;
-	text-decoration:none;
-}	
-
-
-
-
-/* Twitter */
-
-.twitter-widget-area{
-	background:url(../img/twitter-widget-bg.png) 55px center no-repeat;
-}
-
-.twitter-widget ul{
-	list-style:none;
-	margin:0 0 20px;
-	padding:0;
-}
-
-.twitter-widget li{
-	color:#e2eaf2;
-	font-size:15px;
-	font-style:italic;
-}
-
-.twitter-widget a{
-	color:#97acc3;
-}
-
-.twitter-widget li>span{
-	display:inline-block;
-}
-
-.twitter-widget .tweet_time>a{
-	color:#808ca4;
-	font-size:13px;
-}
-
-a.button.twitter-button{
-	background:#40bff5;
-	border-top-color:#53d2f8;
-	border-bottom-color:#36a6d6;
-	color:#fff;
-	height:35px;
-	border-bottom:none;
-}
-
-a.button.twitter-button:after{
-	content:'';
-	display:none;
-}
-
-a.button.twitter-button:before{
-	content: '\e965';
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
-	display: inline-block;
-	text-decoration: inherit;
-	width: 1em;
-	margin-right: .2em;
-	text-align: center;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1em;
-	margin-left: .2em;
-	margin-left:-5px;
-	margin-right:10px;
-	color:#b1e1fa;
-	transition:color 0.2s;
-	-webkit-transition:color 0.2s;
-	-moz-transition:color 0.2s;
-}
-
-a.button.twitter-button:hover{
-	background:#e2eaf2;
-	color:#274472;
-	border-top-color:#f3f7fa;
-	border-bottom-color:#e2eaf2;
-}
-
-a.button.twitter-button:hover:before{
-	color:#40bff5;
-}
-
-
-
-
-
 /* Lower Footer */
-
-#lower-footer{
-	border-top:1px solid #324e79;
-	padding-top:15px;
-	padding-bottom:15px;
-	-webkit-transform: translateZ(0px);
-}
-
-#lower-footer .social-buttons{
-	margin:8px 0 0!important;
-	overflow:hidden;
-}
 
 .copyright{
 	color:#808ca4;
@@ -5059,170 +4910,6 @@ a.button.twitter-button:hover:before{
 	color:#fff;
 	border-top-color:#7cc5f8;
 	border-bottom-color:#579dd9;
-}
-
-
-
-
-
-
-/* Customize Box */
-
-.customize-box{
-	position:fixed;
-	display:none;
-	left:-200px;
-	top:200px;
-	width:200px;
-	background:#274472;
-	color:#e2eaf2;
-	padding:20px;
-	z-index:9999;
-	border-radius:0 0 3px 3px;
-	-webkit-border-radius:0 0 3px 3px;
-	-moz-border-radius:0 0 3px 3px;
-	transition:all 0.4s;
-	-webkit-transition:all 0.4s;
-	-moz-transition:all 0.4s;
-}
-
-.customize-box.opened{
-	left:0;
-}
-
-.customize-box-button{
-	width:45px;
-	height:45px;
-	position:absolute;
-	left:200px;
-	top:0;
-	padding-top:8px;
-	text-align:center;
-	font-size:16px;
-	border-radius:0 3px 3px 0;
-	-webkit-border-radius:0 3px 3px 0;
-	-moz-border-radius:0 3px 3px 0;
-	cursor:pointer;
-	transition:background 0.3s, border 0.3s;
-	-webkit-transition:background 0.3s, border 0.3s;
-	-moz-transition:background 0.3s, border 0.3s;
-	background:#274472;
-	border-top:1px solid transparent;
-	border-bottom:1px solid transparent;
-}
-
-.customize-box.opened .customize-box-button,
-.customize-box-button:hover{
-	background:#4174c5;
-	border-top:1px solid #5191d4;
-	border-bottom:1px solid #213b63;
-}
-
-.customize-box h5{
-	margin:0 0 30px;
-	font-size:16px;
-}
-
-.customize-box select{
-	color:#95999e;
-}
-
-.customize-box label{
-	color:#97acc3;
-}
-
-.customize-box input[type="radio"] + label:before{
-	display:none;
-	content:'';
-}
-
-.customize-box input[type="radio"] + label{
-	background:#324e79;
-	color:#fff;
-	text-transform:uppercase;
-	padding:8px 10px;
-	border-top:1px solid transparent;
-	border-bottom:1px solid transparent;
-	transition:background 0.3s, border 0.3s;
-	-webkit-transition:background 0.3s, border 0.3s;
-	-moz-transition:background 0.3s, border 0.3s;
-	margin-bottom:30px;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-}
-
-.customize-box input[type="radio"] + label + input[type="radio"] + label{
-	margin-left:0;
-}
-
-.customize-box input[type="radio"]:checked + label,
-.customize-box input[type="radio"] + label:hover{
-	background:#4174c5;
-	border-top-color:#5191d4;
-	border-bottom-color:#213b63;
-}
-
-.customize-box input[type="submit"],
-.customize-box input[type="reset"]{
-	padding-left:10px;
-	padding-right:10px;
-	width:70px;
-}
-
-.background-color,
-.background-image{
-	display:none;
-}
-
-.colorpicker{
-	z-index:20000;
-}
-
-#colorpicker{
-	width:30px;
-	height:30px;
-	display:block;
-	border:2px solid #fafbfd;
-	background:#000;
-	position:relative;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	margin-bottom:10px;
-	margin-top:10px;
-}
-
-#colorpicker:after{
-	content:'';
-	display:block;
-	width:4px;
-	height:4px;
-	border-left:4px solid transparent;
-	border-right:4px solid transparent;
-	border-bottom:4px solid #fafbfd;
-	position:absolute;
-	bottom:3px;
-	right:3px;
-}
-
-.background-image input[type="radio"] + label{
-	width:35px;
-	height:35px;
-	overflow:hidden;
-	padding:0;
-	border:2px solid #324e79!important;
-	margin-bottom:10px;
-	margin-top:10px;
-}
-
-.background-image input[type="radio"]:checked + label{
-	border:2px solid #4174c5!important;
-}
-
-.background-image input[type="radio"] + label img{
-	width:33px;
-	height:33px;
 }
 
 
@@ -5602,7 +5289,7 @@ button.active-button:after{
 .tab{
 	color:#3e474c;
 	background:#fff;
-	padding:5px 20px;
+	padding:15px 20px;
 	position:relative;
 	border-radius:3px;
 	-webkit-border-radius:3px;
