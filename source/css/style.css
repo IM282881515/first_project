@@ -4804,6 +4804,40 @@ a.tag:hover{
 	min-height:400px;
 }
   
+.main_box li{
+//	padding: 5px 5px 5px 11px;
+ //   padding: 7px 5px 6px 11px ;
+ 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  //  -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.q-table tr
+{
+	height:20px;
+}
+
+.q-table tr td
+{
+	border:none;
+	min-height:20px;
+	height:20px;
+
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.q-table tr td a
+{
+	color:black;
+}
+.q-table tr td a:hover
+{
+	color:blue;
+}
 /* ==================================== */
 		      /* FOOTER */
 /* ==================================== */
@@ -5770,6 +5804,7 @@ blockquote.link-quote:after{
 
 
 /* Tables */
+/*
 
 table{
 	width:100%;
@@ -5828,7 +5863,7 @@ table tr:hover>th{
 	background:#fff;
 }
 
-
+*/
 
 
 
@@ -7236,6 +7271,7 @@ input.numeric-input:focus{
 		margin:20px 0;
 	}
 	
+	/*
 	table,
 	tbody,
 	tr,
@@ -7255,7 +7291,7 @@ input.numeric-input:focus{
 	table tr{
 		border:1px solid #ecedf1;
 	}
-	
+	*/
 	
 	.pricing-tables,
 	.pricing-tables tbody,
