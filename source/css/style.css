@@ -844,7 +844,6 @@ h6.shortcodes-caption{
 
 .section{
 	padding:5px 0px 10px 0px;
-	background:#fff;
 }
 
 .section.full-width-slider-section{
@@ -3174,7 +3173,7 @@ button.small{
 
 .shop-image{
 	position:relative;
-	width:100%;
+	width:100%; 
 }
 
 .shop-ribbon-sale{
@@ -4806,31 +4805,37 @@ a.tag:hover{
 	background:#fff;
 	padding:15px 20px; 
 	border-radius:3px; 
+	font-family:"微软雅黑"; 
+	line-height:30px;"
 }
-  
-.main_box li{
-//	padding: 5px 5px 5px 11px;
- //   padding: 7px 5px 6px 11px ;
- 
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  //  -o-text-overflow: ellipsis;
-    overflow: hidden;
+
+.show-box
+{
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	padding:20px;
+	background:#fafbfd;
+	//font-family:"微软雅黑"; 
+} 
+
+.q-table
+{
+	table-layout:fixed;
 }
 
 .q-table tr
 {
-	height:20px;
+	height:35px;
 }
 
-.q-table tr td
+.q-table tr td 
 {
-	border:none;
-	min-height:20px;
-	height:20px; 
+	border:none; 
+	height:18px; 
 	white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;
+    overflow: hidden;  
 }
 .q-table tr td a
 {
@@ -4840,6 +4845,11 @@ a.tag:hover{
 {
 	color:blue;
 }
+
+.q-table tr td
+{ 
+}
+
 /* ==================================== */
 		      /* FOOTER */
 /* ==================================== */
