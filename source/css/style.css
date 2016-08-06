@@ -345,7 +345,7 @@ h6.shortcodes-caption{
 
 #logo{
 	padding-top:0px;
-	padding-left:40px;
+	padding-left:20px;
 }
 
 #newsletter{
@@ -1400,7 +1400,7 @@ h6.shortcodes-caption{
 .team-member{
 	position:relative;
 	overflow:hidden;
-	padding-bottom:89px;
+	padding-bottom:69px;
 	margin-bottom:30px;
 	border-radius:3px;
 	-webkit-border-radius:3px;
@@ -4800,7 +4800,7 @@ a.tag:hover{
 
 .main_box
 {
-	min-height:400px;
+	min-height:438px;
 	color:#3e474c;
 	background:#fff;
 	padding:15px 20px; 
@@ -4814,7 +4814,8 @@ a.tag:hover{
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
-	padding:20px;
+	padding:10px;
+	margin-top:10px;
 	background:#fafbfd;
 	//font-family:"微软雅黑"; 
 } 
@@ -4909,7 +4910,7 @@ a.tag:hover{
 }
 
 #main-footer p{
-	color:#97acc3;
+	//color:#97acc3;
 }
 
 

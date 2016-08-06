@@ -56,51 +56,7 @@
 		<script src="js/jquery-ui-1.10.4.min.js"></script>
 		
 		<!-- Preloader -->
-		<script src="js/jquery.queryloader2.min.js"></script>
-		
-		<script type="text/javascript">
-		$('html').addClass('no-fouc');
-		
-		$(document).ready(function(){
-			
-			$('html').show();
-			
-			var window_w = $(window).width();
-			var window_h = $(window).height();
-			var window_s = $(window).scrollTop();
-			
-			$("body").queryLoader2({
-				backgroundColor: '#f2f4f9',
-				barColor: '#63b2f5',
-				barHeight: 4,
-				percentage:false,
-				deepSearch:true,
-				minimumTime:1000,
-				onComplete: function(){
-					
-					$('.animate-onscroll').filter(function(index){
-					
-						return this.offsetTop < (window_s + window_h);
-						
-					}).each(function(index, value){
-						
-						var el = $(this);
-						var el_y = $(this).offset().top;
-						
-						if((window_s) > el_y){
-							$(el).addClass('animated fadeInDown').removeClass('animate-onscroll');
-							setTimeout(function(){
-								$(el).css('opacity','1').removeClass('animated fadeInDown');
-							},2000);
-						}
-						
-					});
-					
-				}
-			});
-			
-		});
-		</script>
+		<script src="js/jquery.queryloader2.min.js"></script> 
 		
 	</head>
 	
@@ -120,8 +76,8 @@
 					
 					<div class="row"> 
 						<!-- Logo -->
-						<div id="logo" class="col-lg-8 col-md-8 col-sm-8" >
-							
+						<div id="logo"  >
+							<img src="img\logo.png"  />
 							<a href="index.html" style="font-size:22px;color:white;">广州信丰纺织助剂有限公司</a>
 							
 						</div>
@@ -163,25 +119,23 @@
 							<a href="company.html">关于公司</a>
 							<ul>
 								<li><a href="company.html">公司简介</a></li>
-								<li><a href="company.html">公司荣誉</a></li>
-								<li><a href="company.html">企业文化</a></li>
-								<li><a href="company.html">组织架构</a></li>
-								<li><a href="company.html">合作伙伴</a></li> 
+								<li><a href="honer.html">公司荣誉</a></li>
+								<li><a href="wenhua.html">企业文化</a></li> 
+								<li><a href="huoban.html">合作伙伴</a></li> 
 							</ul>
 						</li>
 						<li >						
 							<a href="news-company.html">新闻中心</a>						
 							<ul>							
 								<li><a href="news-company.html">公司动态</a></li>
-								<li><a href="news-company.html">行业动态</a></li>								
+								<li><a href="news-hangye.html">行业动态</a></li>								
 							</ul>							
 						</li>
 						<li >						 
 							<a href="product-center.html">产品中心</a>
 							
 							<ul>							
-								<li><a href="product-center.html">硅胶油</a></li>
-								<li<a href="product-center.html">2</a></li>								
+								<li><a href="product-center.html">前处理助剂</a></li> 						
 							</ul>							
 						<li >						
 							<a href="successful-case.html">成功案例</a>
@@ -192,8 +146,8 @@
 						<li >						
 							<a href="advertise.html">招兵买马</a>						
 							<ul>							
-								<li><a href="advertise.html">人才招聘</a></li>
-								<li><a href="advertise.html">人才战略</a></li>								
+								<li><a href="advertise.html">招聘快讯</a></li>
+								<li><a href="rencai-zhanlue.html">人才战略</a></li>								
 							</ul>							
 						</li>
 						<li >			 
@@ -241,7 +195,6 @@
 						
 					</div> 				
 				</div>
-				
 			</section> 
 
 
@@ -249,77 +202,155 @@
 			<section class="section full-width-bg">
 				<div class="row"> 
 					<div class="col-xs-16 col-md-6">
-					 	<div class="  show-box">							
-							<h3>行业动态</h3>
+					 	<div class="  show-box" >							
+							<h4>行业动态</h4>
 							<table class="q-table" width="100%"  cellspacing="0" cellpadding="0" align="center">
 									<tr>
                                    		 <td  align="left" >
-                                     		 	<span>·</span> <a href="#">李克强听取上半年钢铁、煤炭领域去产能情况汇报</a>
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">安徽消保委抽查婴童服装</a> 
                                    		 </td>
+                                   		 <td width="65px" align="right">05-07-12</td>
                                    	</tr>
                                    	<tr>
                                    		 <td align="left" >
-                                     		 	<span>·</span> <a href="#">李克强听取上半年钢铁</a>
+                                     		 	<a class='button transparent button-arrow'></a> 
+                                     		 	<a href="#">湖州开发区对服装企业开展高温安全检查</a>                                     		 	
                                      	 </td>
+                                     	 <td width="65px" align="right">05-07-12</td>
                                    	</tr>
                                    	<tr>
                                    		 <td   align="left" >
-                                     		 	<span>·</span> <a href="#">李克强听取上半年钢铁、煤炭领域去产能情况汇报</a>
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">传统纺织企业进军互联网 业内看好微商前景</a> 
                                      	 </td>
+                                     	 <td width="65px" align="right">05-07-12</td>
+                                	</tr>
+                                	<tr>
+                                   		 <td   align="left" >
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">传统纺织企业进军互联网 业内看好微商前景</a> 
+                                     	 </td>
+                                     	 <td width="65px" align="right">05-07-12</td>
+                                	</tr>
+                                	<tr>
+                                   		 <td   align="left" >
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">传统纺织企业进军互联网 业内看好微商前景</a> 
+                                     	 </td>
+                                     	 <td width="65px" align="right">05-07-12</td>
                                 	</tr>
 							</table>							
 						</div>
 					</div>
 					<div class="col-xs-16 col-md-6">
 					 	<div class="  show-box">							
-							<h3>企业动态</h3>
+							<h4>企业动态</h4>
 							<table class="q-table" width="100%"  cellspacing="0" cellpadding="0" align="center">
 									<tr>
                                    		 <td  align="left" >
-                                     		 	<span>·</span> <a href="#">李克强听取上半年钢铁、煤炭领域去产能情况汇报</a>
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">李克强听取上半年钢铁、煤炭领域去产能情况汇报</a>
                                    		 </td>
+                                   		 <td width="65px" align="right">05-07-12</td>
                                    	</tr>
                                    	<tr>
                                    		 <td align="left" >
-                                     		 	<span>·</span> <a href="#">李克强听取上半年钢铁</a>
+                                     		 	<a class='button transparent button-arrow'></a> 
+                                     		 	<a href="#">李克强听取上半年钢铁</a>
+                                     		 	<td width="65px" align="right">05-07-12</td>
                                      	 </td>
                                    	</tr>
                                    	<tr>
                                    		 <td   align="left" >
-                                     		 	<span>·</span> <a href="#">李克强听取上半年钢铁、煤炭领域去产能情况汇报</a>
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">李克强听取上半年钢铁、煤炭领域去产能情况汇报</a>
+                                     		 	<td width="65px" align="right">05-07-12</td>
                                      	 </td>
                                 	</tr>
-							</table>							
+                                	<tr>
+                                   		 <td   align="left" >
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">传统纺织企业进军互联网 业内看好微商前景</a> 
+                                     	 </td>
+                                     	 <td width="65px" align="right">05-07-12</td>
+                                	</tr>
+                                	<tr>
+                                   		 <td   align="left" >
+                                     		 	<a class='button transparent button-arrow'></a>
+                                     		 	<a href="#">传统纺织企业进军互联网 业内看好微商前景</a> 
+                                     	 </td>
+                                     	 <td width="65px" align="right">05-07-12</td>
+                                	</tr>
+							</table>					
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="section full-width-bg"> 
-				<h3>主推产品</h3>
-					<div class="row " >
-
-						<div class="col-lg-3 col-md-3 col-sm-6">
-								
-								<!-- Team Member -->
-								<div class="team-member animate-onscroll " style="height:200px; width:200px;">
-									
-									<img class="team-member-image" src="img/item8-2.jpg" alt="">
-									
-									<div class="team-member-info">
-										
-										<h2>硅胶油</h2>
-										<span class="job">高科技无污染</span>
-										<div class="team-member-more">
-											<div class="social-media"> 
-												<a href="productpage.html" class="tooltip-ontop" title="硅胶油">
-																<button type="button" class="btn btn-primary btn-sm">详细</button>
-												</a>
-											</div>
-										</div> 
-									</div>
-									
-								</div>
-								<!-- /Team Member -->							
+			<section class="section full-width-bg"> 				
+					<div class="tab show-box" >
+						<div class="row" style="padding-left:15px;padding-right:15px">
+							<h4>新品推荐</h4>
+							 <div class="col-lg-3 col-md-3 col-sm-6">
+												<div class="team-member animate-onscroll ">
+													<img class="team-member-image" src="img/item8-2.jpg" alt="" />
+													<div class="team-member-info"> 
+														<span>亲水硅油</span>
+														<span class="job">高科技无污染</span>
+														<div class="team-member-more">
+															<div class="social-media"> 
+																<a href="productpage.html" class="tooltip-ontop" title="硅胶油">
+																<button type="button" class="btn btn-primary btn-sm">详细</button></a>
+															</div>
+														</div>
+													</div>  			
+												</div> 																		
+							</div>  	
+							<div class="col-lg-3 col-md-3 col-sm-6">
+												<div class="team-member animate-onscroll ">
+													<img class="team-member-image" src="img/item8-2.jpg" alt="" />
+													<div class="team-member-info"> 
+														<span>亲水硅油</span>
+														<span class="job">高科技无污染</span>
+														<div class="team-member-more">
+															<div class="social-media"> 
+																<a href="productpage.html" class="tooltip-ontop" title="硅胶油">
+																<button type="button" class="btn btn-primary btn-sm">详细</button></a>
+															</div>
+														</div>
+													</div>  			
+												</div> 																		
+							</div>  	
+							<div class="col-lg-3 col-md-3 col-sm-6">
+												<div class="team-member animate-onscroll ">
+													<img class="team-member-image" src="img/item8-2.jpg" alt="" />
+													<div class="team-member-info"> 
+														<span>亲水硅油</span>
+														<span class="job">高科技无污染</span>
+														<div class="team-member-more">
+															<div class="social-media"> 
+																<a href="productpage.html" class="tooltip-ontop" title="硅胶油">
+																<button type="button" class="btn btn-primary btn-sm">详细</button></a>
+															</div>
+														</div>
+													</div>  			
+												</div> 																		
+							</div>  	
+							<div class="col-lg-3 col-md-3 col-sm-6">
+												<div class="team-member animate-onscroll ">
+													<img class="team-member-image" src="img/item8-2.jpg" alt="" />
+													<div class="team-member-info"> 
+														<span>亲水硅油</span>
+														<span class="job">高科技无污染</span>
+														<div class="team-member-more">
+															<div class="social-media"> 
+																<a href="productpage.html" class="tooltip-ontop" title="硅胶油">
+																<button type="button" class="btn btn-primary btn-sm">详细</button></a>
+															</div>
+														</div>
+													</div>  			
+												</div> 																		
+							</div>  			
 						</div>
 					</div>   
 		
@@ -327,14 +358,22 @@
 
 			<!-- Footer -->
 
-			<footer id="footer">
+			<footer id="footer" style="line-height:35px"> 
+				<div class="divider"></div>
+				<div class="row">
+					<div class="col-lg-10 col-md-10 col-sm-10">
+						<div id="main-footer" >
+							<center>总机电话：020-82980518    总机传真：020-82980556  </center>
+							<center>企业邮箱：xinfeng@163.com    硅油官方网站：http://www.gzxinfeng.com</center>
+							<center>版权所有@广州信丰纺织助剂有限公司 地址：广州市增城新塘镇永和永康路30号 粤ICP备xxxxx</center>
+							<center>友情链接@<a href="http://www.xpu.edu.cn/" title="西北纺织学院" target="_blank">西安工程大学</a></center>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2">  
+							 <img src="img\erweima.png" width=105px height=105px />
 				
-				<!-- Main Footer -->
-				<div id="main-footer">
-					 <center>版权所有：广州信丰纺织助剂有限公司 2016-7-28</center>			
+					</div>
 				</div>
-				<!-- /Main Footer -->
-
 			</footer>
 			<!-- /Footer -->
 			
